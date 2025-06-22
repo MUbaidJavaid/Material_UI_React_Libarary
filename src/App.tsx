@@ -1,13 +1,21 @@
 import { MyButton } from "./componentes/Button";
-import { TypographyText } from "./componentes/Typographyheading";
+import { MyButtonGroup } from "./componentes/ButtonGroup";
+import { MyCheckBox } from "./componentes/CheckBox";
+import { MyRadioButton } from "./componentes/RadioButton";
+import { MySlider } from "./componentes/Slider";
+// import { TypographyText } from "./componentes/Typographyheading";
 
 function App() {
 
 
   return (
     <>
-      <TypographyText />
+      {/* <TypographyText /> */}
       <MyButton />
+      <MyButtonGroup />
+      <MyCheckBox />
+      <MyRadioButton />
+      <MySlider />
     </>
   )
 }
