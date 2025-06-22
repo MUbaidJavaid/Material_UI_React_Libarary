@@ -1,8 +1,15 @@
 import type { JSX } from "@emotion/react/jsx-runtime"
 import { Slider } from "@mui/material"
+import React from "react";
 
 
 export const MySlider = (): JSX.Element => {
+     const [value, setValue] = React.useState<number[]>([30, 60]);
+
+     const handleChangeCommitted = (event: Event, newValue: number | number[]) => {
+        setValue(newValue as number[]);
+        console.log(newValue);
+    }
     const handleChange = (event: Event, newValue: number | number[]) => {
         console.log(newValue);
     }
@@ -45,6 +52,26 @@ export const MySlider = (): JSX.Element => {
                 min={0}
                 max={100}
                 onChange={handleChange}
+                sx={{
+                    width: "10px",
+                    height: "200px",
+                    color: "#0a8c77",
+                    "& .MuiSlider-track": {
+                        border: "none",
+                    }
+                }}
+            />
+            <Slider
+                defaultValue={30}
+                aria-label="Default"
+                valueLabelDisplay="auto"
+                step={10}
+                marks={mark}
+                orientation="vertical"
+                value={value}
+                min={0}
+                max={100}
+                onChange={handleChangeCommitted}
                 sx={{
                     width: "10px",
                     height: "200px",
