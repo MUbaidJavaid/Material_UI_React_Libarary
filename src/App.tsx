@@ -2,6 +2,7 @@ import { MyBox } from "./componentes/Box";
 import { MyButton } from "./componentes/Button";
 import { MyButtonGroup } from "./componentes/ButtonGroup";
 import { MyCheckBox } from "./componentes/CheckBox";
+import { MyContainerLayout } from "./componentes/Container";
 import { MyRadioButton } from "./componentes/RadioButton";
 import { MySelect } from "./componentes/Select";
 import { MySlider } from "./componentes/Slider";
@@ -24,6 +25,7 @@ function App() {
       <MyTextField />
       <MySwitch />
       <MyBox />
+      <MyContainerLayout />
     </>
   )
 }
