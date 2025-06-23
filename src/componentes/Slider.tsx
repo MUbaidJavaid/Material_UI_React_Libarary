@@ -40,7 +40,7 @@ export const MySlider = (): JSX.Element => {
         },
     ]
     return (
-        <div className='flex justify-center ml-40 mx-auto items-center h-96 w-96'  >
+        <div className='flex justify-center  mx-auto items-center h-96 w-96'  >
             {/* <input type="range" min="0" max="100" className="slider" /> */}
             <Slider
                 defaultValue={30}
