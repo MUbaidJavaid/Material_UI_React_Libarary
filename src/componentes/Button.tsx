@@ -13,6 +13,8 @@ function MyButton() {
     return(
         <>
         <div className='flex justify-center items-center w-full '>
+            <h1 className="text-2xl font-bold text-start">Button Component</h1>
+            <br />
             <Button 
             variant="contained"
             color={color}

@@ -13,6 +13,7 @@ export const MyCheckBox = (): JSX.Element => {
     return (
         <>
             <div className='flex justify-center items-center w-full '>
+                <h1 className="text-2xl font-bold text-start">Checkbox Component</h1>
                 <Checkbox 
                 //  checked={checked}
                 color="primary" 

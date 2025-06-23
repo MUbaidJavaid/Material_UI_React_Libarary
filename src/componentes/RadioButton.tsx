@@ -12,6 +12,8 @@ export const MyRadioButton = (): JSX.Element => {
     }
     return (
         <div className='flex justify-center items-center w-full '>
+            <h1 className="text-2xl font-bold text-start">Radio Button Component</h1>
+            <br />
             <RadioGroup
                 aria-labelledby="demo-radio-buttons-group-label"
                 defaultValue="Male"

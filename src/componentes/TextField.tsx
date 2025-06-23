@@ -22,9 +22,10 @@ export const  MyTextField = ():JSX.Element => {
         }
     return (
         <div  className="flex flex-col mx-auto w-72 mt-4 gap-4">
-            <h1 className="text-2xl font-bold text-start text-center">Name: {value}</h1>
-            <h1 className="text-2xl font-bold text-start text-center">Email: {valueEmail}</h1>
-            <h1 className="text-2xl font-bold text-start text-center">Password: {valuePassword}</h1>
+            <h1>TextField Component</h1>
+            <h1 className="text-2xl font-bold text-start ">Name: {value}</h1>
+            <h1 className="text-2xl font-bold text-start ">Email: {valueEmail}</h1>
+            <h1 className="text-2xl font-bold text-start ">Password: {valuePassword}</h1>
             <TextField
                 // helperText="Enter your name"
                 label="Name"

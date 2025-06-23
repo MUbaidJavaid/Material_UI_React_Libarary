@@ -6,6 +6,7 @@ export const MyButtonGroup = ({}): JSX.Element => {
     return(
         <>
         <div className='flex justify-center items-center w-full '>
+            <h1 className="text-2xl font-bold text-start">Button Group Component</h1>
         <ButtonGroup
         orientation='vertical'
           variant="text"

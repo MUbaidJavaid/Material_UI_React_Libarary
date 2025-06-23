@@ -12,7 +12,7 @@ export const MySelect = (): JSX.Element => {
     }
     return (
         <>
-            <div className='flex justify-center w-72 items-center w-full '>
+            <div className='flex justify-center w-72 items-center  '>
                 <Select
                     labelId="demo-simple-select-label"
                     id="demo-simple-select"
