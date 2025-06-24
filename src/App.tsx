@@ -3,6 +3,7 @@ import { MyButton } from "./componentes/Button";
 import { MyButtonGroup } from "./componentes/ButtonGroup";
 import { MyCheckBox } from "./componentes/CheckBox";
 import { MyContainerLayout } from "./componentes/Container";
+import { MyGrid } from "./componentes/Grid";
 import { MyRadioButton } from "./componentes/RadioButton";
 import { MySelect } from "./componentes/Select";
 import { MySlider } from "./componentes/Slider";
@@ -26,6 +27,7 @@ function App() {
       <MySwitch />
       <MyBox />
       <MyContainerLayout />
+      <MyGrid />
     </>
   )
 }
